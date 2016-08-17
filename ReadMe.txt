@@ -32,3 +32,12 @@ https://vimeo.com/115418661
 https://vimeo.com/115560431
 https://github.com/jbossdemocentral/jboss-fuse-component-cxf-cxfrs
 
+Run fuse in fuse_xxx/bin
+    fuse
+
+Deploy using fabric8:
+    fabric:create --wait-for-provisioning
+    mvn fabric8:deploy
+    http://localhost:8181/hawtio/login
+    Create container with profile claim
+    http://localhost:8181/hawtio/fabric/containers
