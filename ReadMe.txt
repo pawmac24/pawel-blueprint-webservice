@@ -32,7 +32,7 @@ https://vimeo.com/115418661
 https://vimeo.com/115560431
 https://github.com/jbossdemocentral/jboss-fuse-component-cxf-cxfrs
 
-Run fuse in fuse_xxx/bin
+Run fuse in fuse_6.2.1/bin
     fuse
 
 Deploy using fabric8:
